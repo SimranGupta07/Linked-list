@@ -11,7 +11,7 @@ public class linkedlist {
 	private int size;
 	
 	public void addfront(int item) {
-		node nn=new node();//it is basically address here we build a node
+		node nn=new node();//generate a node
 		nn.val=item;
 		if(size==0) {
 			head=nn;
